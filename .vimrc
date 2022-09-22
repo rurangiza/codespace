@@ -1,6 +1,7 @@
 
 " Display line numbers
 set number
+set relativenumber
 
 " Enable syntax highlighting
 syntax on
@@ -32,3 +33,6 @@ set smartcase
 
 " Change line number color.
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
+
+" Hide  tilde for blank lines.
+
