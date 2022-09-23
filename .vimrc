@@ -5,9 +5,21 @@ set relativenumber
 
 " Enable syntax highlighting
 syntax on
+colorscheme default
 
-" Display status bar (bottom)
+" Display statusline (bottom)
 set laststatus=2
+
+
+set statusline=
+set statusline+=%1*\ %f\ <-%*
+set statusline+=\ %m
+set statusline+=%1*\ %F 
+set statusline+=%= " Switch => right side
+set statusline+=\ Ln%l,Col%c " Display line number and column number
+set statusline+=\ 
+
+hi User1 ctermbg=blue ctermfg=NONE
 
 " Wrap text
 set wrap
