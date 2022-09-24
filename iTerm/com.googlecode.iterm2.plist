@@ -192,8 +192,10 @@
 			</dict>
 			<key>Background Image Location</key>
 			<string></string>
-			<key>Blinking Cursor</key>
+			<key>Blink Allowed</key>
 			<false/>
+			<key>Blinking Cursor</key>
+			<true/>
 			<key>Blur</key>
 			<true/>
 			<key>Blur Radius</key>
